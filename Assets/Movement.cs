@@ -1,12 +1,14 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Movement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float jumpForce = 100f;
+    public float jumpForce = 10f;
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    public Transform tr;
     public Transform groundCheck;
     public LayerMask groundLayer;
 
@@ -18,20 +20,16 @@ public class Movement : MonoBehaviour
     private void Update()
     {
         // Player movement
-        float horizontalInput = UnityEngine.Input.GetAxis("Horizontal");
+        float horizontalInput = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
         rb.velocity = movement;
 
-        // Player jumping
-        if (Input.GetKey(KeyCode.Space) && isGrounded)
-        {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        }
-    }
 
-    private void FixedUpdate()
-    {
-        // Check if the player is on the ground
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+
+        // Move upwards on "W" key press
+        if (Input.GetKey("w"))
+        {
+            tr.position += new Vector3(0,1*jumpForce*Time.deltaTime,0);
+        }
     }
 }
