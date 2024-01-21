@@ -42,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Plaform
+    uniqueID: 3072345309
+    locked: 0
+  - name: Background
+    uniqueID: 3657262593
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
