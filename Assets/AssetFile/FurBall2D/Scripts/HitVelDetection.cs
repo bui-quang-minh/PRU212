@@ -17,12 +17,6 @@ public class HitVelDetection : MonoBehaviour {
 		//Debug.Log ("Check");
 	
 	}
-
-
-
-	
-
-	
 	// Update is called once per frame
 	void Update () {
 		
