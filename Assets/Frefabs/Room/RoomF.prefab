@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 281990465324974016}
   - component: {fileID: 2302996639556654556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (61)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -55,7 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5677352176036378849}
   - component: {fileID: 6501108637104638428}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (79)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1253207818016506413}
   - component: {fileID: 3717048140821559746}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (19)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -145,7 +145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9218873197329023587}
   - component: {fileID: 417172750383898976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (78)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -190,7 +190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6397331082523975174}
   - component: {fileID: 5430017646311244742}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (50)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -235,7 +235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2867654398445612001}
   - component: {fileID: 1921247602669008953}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (70)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -280,7 +280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3789796518076772518}
   - component: {fileID: 41560353807568218}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (65)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -325,7 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7022005491858726221}
   - component: {fileID: 4413610215863803014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (22)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -370,7 +370,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5691519522583320164}
   - component: {fileID: 5838519246151151592}
-  m_Layer: 0
+  - component: {fileID: -5982805012052145121}
+  m_Layer: 7
   m_Name: RoomF
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
@@ -461,7 +462,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a73d47fafd0bd4187da66857985ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberofRoomType: 3
+  RoomType: 3
+--- !u!61 &-5982805012052145121
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206945738028940992}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1564244884412282158
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4744478324371947482}
   - component: {fileID: 3437341124735244183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (59)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -517,7 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 671190303118022686}
   - component: {fileID: 6746432794523055796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (81)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -562,7 +609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5326005343054629790}
   - component: {fileID: 3223173660509614652}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (66)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -607,7 +654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942922976566411301}
   - component: {fileID: 1197642023743377666}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (1)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -652,7 +699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7918278214470659523}
   - component: {fileID: 9130481059896160364}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (23)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -697,7 +744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264980926740942224}
   - component: {fileID: 5746836194778894069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -742,7 +789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4455211232288468844}
   - component: {fileID: 1647918022191890900}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (36)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -787,7 +834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4423480993988986183}
   - component: {fileID: 8335294370601906756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (30)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -832,7 +879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8270909704393623742}
   - component: {fileID: 3377702642348134301}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (62)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -877,7 +924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6626587706073942929}
   - component: {fileID: 8264290774117204763}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (44)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -922,7 +969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8091182851079653591}
   - component: {fileID: 3357030849455657365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (25)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -967,7 +1014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3360940321672936081}
   - component: {fileID: 7153839975929425679}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (6)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1012,7 +1059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4213720330253153588}
   - component: {fileID: 4979066682621335268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (20)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1057,7 +1104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5270641075481686120}
   - component: {fileID: 6598516458926412309}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (5)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1102,7 +1149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2035108343436047174}
   - component: {fileID: 1569275894641640686}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (45)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1147,7 +1194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4964983764474533972}
   - component: {fileID: 7020054808863181908}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (48)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1192,7 +1239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 545021542492951015}
   - component: {fileID: 7834012497584433847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (47)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1237,7 +1284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1604313884988267633}
   - component: {fileID: 8195480257528502752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (27)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1282,7 +1329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8227127535074680769}
   - component: {fileID: 8446230801034627302}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (16)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1327,7 +1374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7122007513260133997}
   - component: {fileID: 3708522540263748011}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (68)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1372,7 +1419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5979101359396978438}
   - component: {fileID: 5658624981786294403}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (7)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1417,7 +1464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8178575801783225781}
   - component: {fileID: 2423095311270434760}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (18)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1462,7 +1509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1019237700265529208}
   - component: {fileID: 5059898485492174344}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (51)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1507,7 +1554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4133155411026624999}
   - component: {fileID: 41096921632946183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (40)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1552,7 +1599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1954949574757051954}
   - component: {fileID: 8211415122600589413}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (3)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1597,7 +1644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087766362050178351}
   - component: {fileID: 3765149351795706978}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (39)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1642,7 +1689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6557916118978305723}
   - component: {fileID: 4256458251940629623}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (26)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1687,7 +1734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6442188480919721336}
   - component: {fileID: 3163874498221350244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (17)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1732,7 +1779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6716344196204564285}
   - component: {fileID: 5864865346747168121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (42)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1777,7 +1824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4965916942084928590}
   - component: {fileID: 8450871239362630094}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (64)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1822,7 +1869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2628962939257646165}
   - component: {fileID: 1236078774644869133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (41)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1867,7 +1914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3241224686218771318}
   - component: {fileID: 740978943395085347}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (43)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1912,7 +1959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3462107631510179998}
   - component: {fileID: 8537171517311216008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (46)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1957,7 +2004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8360926414169882099}
   - component: {fileID: 7094293008798370026}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (37)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2002,7 +2049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6916115405000205041}
   - component: {fileID: 5298309647812768286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (83)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2047,7 +2094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8859311483056062534}
   - component: {fileID: 1577076048153241014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (69)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2092,7 +2139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5226025944936839245}
   - component: {fileID: 4876227883931093142}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (4)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2137,7 +2184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8266665854677669988}
   - component: {fileID: 4634569493422429355}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (49)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2182,7 +2229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1905964349522422605}
   - component: {fileID: 7674435767506492895}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (28)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2227,7 +2274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4267421499294342907}
   - component: {fileID: 6515447422840573465}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (82)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2272,7 +2319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7720241189990068803}
   - component: {fileID: 2270347389338274363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (21)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2317,7 +2364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8500517582745691376}
   - component: {fileID: 8389242888217350862}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (29)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2362,7 +2409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614689190967671355}
   - component: {fileID: 4639855458182575981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (80)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2407,7 +2454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4734092972614286476}
   - component: {fileID: 3223258767803583434}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (2)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2452,7 +2499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1095752732341229587}
   - component: {fileID: 5195816943053184783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (60)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2497,7 +2544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8115450005241611425}
   - component: {fileID: 4323713418724773034}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (63)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2542,7 +2589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8878535684342201250}
   - component: {fileID: 7286256241207134495}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (67)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2587,7 +2634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 423883876716542307}
   - component: {fileID: 6556943432021956127}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (24)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2632,7 +2679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5959655671059669825}
   - component: {fileID: 8246635628404879331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TilesGen (31)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}

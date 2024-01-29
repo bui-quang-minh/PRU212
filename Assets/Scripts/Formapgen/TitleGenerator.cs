@@ -7,6 +7,7 @@ public class TitleGenerator : MonoBehaviour
     [SerializeField] private Transform Plaform;
     private void Awake()
     {
-        Instantiate(Plaform, transform.position, Quaternion.identity);
+       Transform instance =(Transform)Instantiate(Plaform, transform.position, Quaternion.identity);
+       instance.transform.parent = transform;
     }
 }

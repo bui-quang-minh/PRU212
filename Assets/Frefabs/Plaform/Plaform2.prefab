@@ -531,7 +531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5818669722672278704}
   - component: {fileID: 3684928395725014724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4249226395392872064}
   - component: {fileID: 3542471187122706110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -703,7 +703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2239672949011732662}
   - component: {fileID: 1378066194553504075}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,7 +834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747112680223875306}
   - component: {fileID: 1759545791179465626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1903681469243027430}
   - component: {fileID: 1149014423968347016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1006,7 +1006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5300260571331713600}
   - component: {fileID: 4284019557224057139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Idle_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

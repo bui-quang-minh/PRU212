@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RoomValidator : MonoBehaviour
 {
-    public int NumberofRoomType;
+    public int RoomType;
     public void Delete(){
         Destroy(gameObject);
     }
